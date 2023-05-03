@@ -61,6 +61,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - <a href="https://nodejs.org/" target="_blank">Node.js</a>
 - <a href="https://reactjs.org/" target="_blank">React</a>
+- <a href="https://storybook.js.org/" target="_blank">Storybook</a>
+- <a href="https://stitches.dev/" target="_blank">Stitches</a>
 - <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
 - <a href="https://eslint.org" target="_blank">ESLint</a>
 - <a href="https://prettier.io/" target="_blank">Prettier</a>
