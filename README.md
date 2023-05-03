@@ -52,23 +52,23 @@ O Mycelium System (do protuguês, Micélio) é um conjunto de bibliotecas para f
 
 :heavy_check_mark: @mycelium/eslint-config - Uma configuração simples de ESLint pronta para usar [eslint-config](/packages/eslint-config/README.md); \
 :heavy_check_mark: @mycelium/ts-config - Uma configuração base do TypeScript pronta para usar [ts-config](/packages/ts-config/README.md); \
-:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos [tokens](/packages/tokens/README.md);
+:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos [tokens](/packages/tokens/README.md); \
 :heavy_check_mark: @mycelium/react - Uma biblioteca de componentes React do Mycelium Design System para construção de projetos Web [react](/packages/react/README.md);
 
 ## :rocket: Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ESLint](https://eslint.org)
-- [Prettier](https://prettier.io/)
-- [tsup](https://tsup.egoist.dev/)
+- <a href="https://nodejs.org/" target="_blank">Node.js</a>
+- <a href="https://reactjs.org/" target="_blank">React</a>
+- <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
+- <a href="https://eslint.org" target="_blank">ESLint</a>
+- <a href="https://prettier.io/" target="_blank">Prettier</a>
+- <a href="https://tsup.egoist.dev/" target="_blank">tsup</a>
 
 ## :white_check_mark: Pré requisitos
 
-Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+Antes de começar :checkered_flag:, você precisa ter o <a href="https://git-scm.com" target="_blank">Git</a> e o <a href="https://git-scm.com" target="_blank">Node</a> instalados em sua maquina.
 
 ## :checkered_flag: Começando
 
@@ -90,7 +90,7 @@ $ npm run dev
 
 ## :memo: Licença
 
-Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 Feito com :heart: por <a href="https://github.com/chrismantins" target="_blank">Christian Martins</a>
 
