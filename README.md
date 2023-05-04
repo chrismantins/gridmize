@@ -24,7 +24,7 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/chrismantins/mycelium?color=56BEB8" />
 </p>
 
-Status
+<h3 align="center">Status</h1>
 
 <h4 align="center">
 	🚧  Mycelium System 🚀 Em construção...  🚧
@@ -50,10 +50,11 @@ O Mycelium System (do protuguês, Micélio) é um conjunto de bibliotecas para f
 
 ## :sparkles: Funcionalidades
 
-:heavy_check_mark: @mycelium/eslint-config - Uma configuração simples de ESLint pronta para usar [eslint-config](/packages/eslint-config/README.md); \
-:heavy_check_mark: @mycelium/ts-config - Uma configuração base do TypeScript pronta para usar [ts-config](/packages/ts-config/README.md); \
-:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos [tokens](/packages/tokens/README.md); \
-:heavy_check_mark: @mycelium/react - Uma biblioteca de componentes React do Mycelium Design System para construção de projetos Web [react](/packages/react/README.md);
+:heavy_check_mark: @mycelium/eslint-config - Uma configuração simples de ESLint pronta para usar - [eslint-config README](/packages/eslint-config/README.md); \
+:heavy_check_mark: @mycelium/ts-config - Uma configuração base do TypeScript pronta para usar - [ts-config README](/packages/ts-config/README.md); \
+:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [tokens README](/packages/tokens/README.md); \
+:heavy_check_mark: @mycelium/react - Uma biblioteca de componentes React do Mycelium Design System para construção de projetos Web - [react README](/packages/react/README.md); \
+:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [docs README](/packages/docs/README.md);
 
 ## :rocket: Tecnologias
 
@@ -66,6 +67,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
 - <a href="https://eslint.org" target="_blank">ESLint</a>
 - <a href="https://prettier.io/" target="_blank">Prettier</a>
+- <a href="https://turbo.build/" target="_blank">Turbo</a>
 - <a href="https://tsup.egoist.dev/" target="_blank">tsup</a>
 
 ## :white_check_mark: Pré requisitos
