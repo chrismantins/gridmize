@@ -25,6 +25,11 @@
     "vite": "^4.3.4"
   },
   "dependencies": {
+    "@mycelium/eslint-config": "*",
+    "@mycelium/ts-config": "*",
+    "@mycelium/react": "*",
+    "@mycelium/tokens": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

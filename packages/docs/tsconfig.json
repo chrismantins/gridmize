@@ -1,0 +1,4 @@
+{
+  "extends": "@mycelium/ts-config/react.json",
+  "include": ["src"]
+}
