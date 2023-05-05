@@ -54,21 +54,32 @@ O Mycelium System (do protuguês, Micélio) é um conjunto de bibliotecas para f
 :heavy_check_mark: @mycelium/ts-config - Uma configuração base do TypeScript pronta para usar - [ts-config README](/packages/ts-config/README.md); \
 :heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [tokens README](/packages/tokens/README.md); \
 :heavy_check_mark: @mycelium/react - Uma biblioteca de componentes React do Mycelium Design System para construção de projetos Web - [react README](/packages/react/README.md); \
-:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [docs README](/packages/docs/README.md);
+:heavy_check_mark: @mycelium/tokens - <a href="https://chrismantins.github.io/mycelium/" target="_blank">Acessar Storybook</a> - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [docs README](/packages/docs/README.md);
 
 ## :rocket: Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- <a href="https://nodejs.org/" target="_blank">Node.js</a>
-- <a href="https://reactjs.org/" target="_blank">React</a>
-- <a href="https://storybook.js.org/" target="_blank">Storybook</a>
-- <a href="https://stitches.dev/" target="_blank">Stitches</a>
-- <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
-- <a href="https://eslint.org" target="_blank">ESLint</a>
-- <a href="https://prettier.io/" target="_blank">Prettier</a>
-- <a href="https://turbo.build/" target="_blank">Turbo</a>
-- <a href="https://tsup.egoist.dev/" target="_blank">tsup</a>
+<table>
+  <td>
+  - <a href="https://reactjs.org/" target="_blank">React</a>
+  - <a href="https://nodejs.org/" target="_blank">Node.js</a>
+  - <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
+  - <a href="https://storybook.js.org/" target="_blank">Storybook</a>
+  - <a href="https://stitches.dev/" target="_blank">Stitches</a>
+  - <a href="https://www.radix-ui.com/" target="_blank">Radix</a>
+  - <a href="phosphoricons.com/" target="_blank">Phosphor Icons</a>
+  - <a href="https://eslint.org" target="_blank">ESLint</a>
+  - <a href="https://prettier.io/" target="_blank">Prettier</a>
+  - <a href="https://vitejs.dev/" target="_blank">Vite</a>
+  </td>
+  <td>
+  - <a href="https://turbo.build/" target="_blank">Turbo</a>
+  - <a href="https://tsup.egoist.dev/" target="_blank">tsup</a>
+  - <a href="https://github.com/features/actions" target="_blank">Github Actions</a>
+  - <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  </td>
+</table>
 
 ## :white_check_mark: Pré requisitos
 
@@ -89,7 +100,7 @@ $ npm i
 # Para iniciar o projeto
 $ npm run dev
 
-# O app vai inicializar em <http://localhost:3000>
+# O app vai inicializar em <http://localhost:6006>
 ```
 
 ## :memo: Licença

@@ -46,6 +46,10 @@ export const Button = styled('button', {
       outline: {
         color: '$blue700',
         border: '2px solid $blue700',
+        '&:not(:disabled):hover': {
+          color: '$white',
+          background: '$blue700',
+        },
         '&:focus': {
           boxShadow: '0 0 0 2px $colors$blue100',
         },

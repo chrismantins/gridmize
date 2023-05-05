@@ -13,6 +13,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-a11y": "^7.0.8",
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.7",
     "@storybook/addon-links": "^7.0.7",
@@ -31,7 +32,6 @@
     "@mycelium/react": "*",
     "@mycelium/tokens": "*",
     "@mycelium/ts-config": "*",
-    "@storybook/addon-a11y": "^7.0.8",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
