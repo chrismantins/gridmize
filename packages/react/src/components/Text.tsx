@@ -23,13 +23,22 @@ export const Text = styled('p', {
       '8xl': { fontSize: '$8xl' },
       '9xl': { fontSize: '$9xl' },
     },
+    lineHeight: {
+      xs: { lineHeight: '$shorter' },
+      sm: { lineHeight: '$short' },
+      md: { lineHeight: '$base' },
+      lg: { lineHeight: '$tall' },
+    },
   },
 
   defaultVariants: {
     size: 'md',
+    lineHeight: 'md',
   },
 });
 
 export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType;
 }
+
+Text.displayName = 'Text';
