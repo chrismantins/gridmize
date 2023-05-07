@@ -1,5 +1,5 @@
 {
-  "name": "@mycelium/eslint-config",
+  "name": "@gridmize/eslint-config",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",

@@ -1,33 +1,33 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Mycelium" />
+  <img src="./.github/app.gif" alt="Gridmize" />
 
 &#xa0;
 
-  <!-- <a href="https://mycelium.netlify.com">Demo</a> -->
+  <!-- <a href="https://gridmize.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center">Mycelium</h1>
+<h1 align="center">Gridmize</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/chrismantins/mycelium?color=56BEB8">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/chrismantins/gridmize?color=56BEB8">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/chrismantins/mycelium?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/chrismantins/gridmize?color=56BEB8">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/chrismantins/mycelium?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/chrismantins/gridmize?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/chrismantins/mycelium?color=56BEB8">
+  <img alt="Licença" src="https://img.shields.io/github/license/chrismantins/gridmize?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/chrismantins/mycelium?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/chrismantins/gridmize?color=56BEB8" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/chrismantins/mycelium?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/chrismantins/gridmize?color=56BEB8" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/chrismantins/mycelium?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/chrismantins/gridmize?color=56BEB8" />
 </p>
 
 <h3 align="center">Status</h1>
 
 <h4 align="center">
-	🚧  Mycelium System 🚀 Em construção...  🚧
+	🚧  Gridmize System 🚀 Em construção...  🚧
 </h4>
 
 <hr>
@@ -46,15 +46,15 @@
 
 ## :dart: Sobre
 
-O Mycelium System (do protuguês, Micélio) é um conjunto de bibliotecas para facilitar o trabalho de desenvolvimento das equipes. Contando com bibliotecas de configuração, estilização, tokens e componentes de Design System e muito mais, para assim o time ou desenvolvedor focar nas partes mais importantes, focar em solucionar os problemas da empresa/negócio.
+O Gridmize é um conjunto de bibliotecas para facilitar o trabalho de desenvolvimento das equipes. Contando com bibliotecas de configuração, estilização, tokens e componentes de Design System e muito mais, para assim o time ou desenvolvedor focar nas partes mais importantes, focar em solucionar os problemas da empresa/negócio.
 
 ## :sparkles: Funcionalidades
 
-:heavy_check_mark: @mycelium/eslint-config - Uma configuração simples de ESLint pronta para usar - [eslint-config README](/packages/eslint-config/README.md); \
-:heavy_check_mark: @mycelium/ts-config - Uma configuração base do TypeScript pronta para usar - [ts-config README](/packages/ts-config/README.md); \
-:heavy_check_mark: @mycelium/tokens - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [tokens README](/packages/tokens/README.md); \
-:heavy_check_mark: @mycelium/react - Uma biblioteca de componentes React do Mycelium Design System para construção de projetos Web - [react README](/packages/react/README.md); \
-:heavy_check_mark: @mycelium/tokens - <a href="https://chrismantins.github.io/mycelium/" target="_blank">Acessar Storybook</a> - Configuração contendo tokens padrões do Mycelium Design System para utilizar em qualquer lib de estilos - [docs README](/packages/docs/README.md);
+:heavy_check_mark: @gridmize/eslint-config - Uma configuração simples de ESLint pronta para usar - [eslint-config README](/packages/eslint-config/README.md); \
+:heavy_check_mark: @gridmize/ts-config - Uma configuração base do TypeScript pronta para usar - [ts-config README](/packages/ts-config/README.md); \
+:heavy_check_mark: @gridmize/tokens - Configuração contendo tokens padrões do Gridmize Design System para utilizar em qualquer lib de estilos - [tokens README](/packages/tokens/README.md); \
+:heavy_check_mark: @gridmize/react - Uma biblioteca de componentes React do Gridmize Design System para construção de projetos Web - [react README](/packages/react/README.md); \
+:heavy_check_mark: @gridmize/tokens - <a href="https://chrismantins.github.io/gridmize/" target="_blank">Acessar Storybook</a> - Configuração contendo tokens padrões do gridmize Design System para utilizar em qualquer lib de estilos - [docs README](/packages/docs/README.md);
 
 ## :rocket: Tecnologias
 
@@ -89,10 +89,10 @@ Antes de começar :checkered_flag:, você precisa ter o <a href="https://git-scm
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/chrismantins/mycelium
+$ git clone https://github.com/chrismantins/gridmize
 
 # Entre na pasta
-$ cd mycelium
+$ cd gridmize
 
 # Instale as dependências
 $ npm i

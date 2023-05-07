@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Text, TextProps } from '@mycelium/react';
+import { Text, TextProps } from '@gridmize/react';
 
 export default {
   title: 'Typography/Text',

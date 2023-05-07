@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button, ButtonProps } from '@mycelium/react';
+import { Button, ButtonProps } from '@gridmize/react';
 import { Plus } from 'phosphor-react';
 
 export default {

@@ -1,15 +1,15 @@
-# Mycelium Design System - Tokens
+# Gridmize Design System - Tokens
 
 ## Sobre
 
-Um conjunto de tokens base do Mycelium Design System para utilizar na contrução do seu layout.
+Um conjunto de tokens base do Gridmize Design System para utilizar na contrução do seu layout.
 
 ## Setup
 
 1. Instalação
 
 ```
-npm i -D @mycelium/tokens
+npm i -D @gridmize/tokens
 ```
 
 2. Importação e utilização
@@ -17,7 +17,7 @@ npm i -D @mycelium/tokens
 React:
 
 ```javascript
-import { colors, fontSizes, fonts } from '@mycelium/tokens';
+import { colors, fontSizes, fonts } from '@gridmize/tokens';
 
 export function App() {
   return (
@@ -37,7 +37,7 @@ export function App() {
           fontSize: fontSizes['4xl'],
         }}
       >
-        My App with Mycelium Design System Tokens
+        My App with Gridmize Design System Tokens
       </h1>
     </div>
   );

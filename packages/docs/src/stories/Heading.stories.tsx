@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Heading, HeadingProps } from '@mycelium/react';
+import { Heading, HeadingProps } from '@gridmize/react';
 
 export default {
   title: 'Typography/Heading',

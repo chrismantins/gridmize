@@ -1,5 +1,5 @@
 {
-  "name": "@mycelium/react",
+  "name": "@gridmize/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@mycelium/eslint-config": "*",
-    "@mycelium/tokens": "*",
-    "@mycelium/ts-config": "*",
+    "@gridmize/eslint-config": "*",
+    "@gridmize/tokens": "*",
+    "@gridmize/ts-config": "*",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",
     "react": "^18.2.0",

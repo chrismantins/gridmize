@@ -6,7 +6,7 @@ import {
   lineHeights,
   radius,
   space,
-} from '@mycelium/tokens';
+} from '@gridmize/tokens';
 import { createStitches, defaultThemeMap } from '@stitches/react';
 
 export const {

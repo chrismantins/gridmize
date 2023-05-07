@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Box, MultiStep, MultiStepProps } from '@mycelium/react';
+import { Box, MultiStep, MultiStepProps } from '@gridmize/react';
 
 export default {
   title: 'Form/Multi Step',

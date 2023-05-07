@@ -1,4 +1,4 @@
 {
-  "extends": "@mycelium/ts-config/base.json",
+  "extends": "@gridmize/ts-config/base.json",
   "include": ["src"]
 }

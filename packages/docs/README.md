@@ -1,4 +1,4 @@
-# Mycelium Design System - Documentation
+# Gridmize Design System - Documentation
 
 ## Sobre
 
@@ -9,7 +9,7 @@ Documentação dos Componentes e Tokens interativa utilizando o <a href="https:/
 1. Instalação
 
 ```
-npm i -D @mycelium/docs
+npm i -D @gridmize/docs
 ```
 
 2. Importação e utilização

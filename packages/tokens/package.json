@@ -1,5 +1,5 @@
 {
-  "name": "@mycelium/tokens",
+  "name": "@gridmize/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@mycelium/ts-config": "*",
-    "@mycelium/eslint-config": "*",
+    "@gridmize/ts-config": "*",
+    "@gridmize/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   }

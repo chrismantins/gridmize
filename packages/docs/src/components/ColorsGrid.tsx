@@ -1,4 +1,4 @@
-import { colors } from '@mycelium/tokens';
+import { colors } from '@gridmize/tokens';
 import { getContrast } from 'polished';
 
 export function ColorsGrid() {

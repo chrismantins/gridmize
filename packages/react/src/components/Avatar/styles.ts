@@ -22,11 +22,12 @@ export const AvatarFallback = styled(Avatar.Fallback, {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundColor: '$gray600',
+  backgroundColor: '$gray800',
   color: '$gray800',
 
   svg: {
     width: '$6',
     height: '$6',
+    color: '$gray400',
   },
 });

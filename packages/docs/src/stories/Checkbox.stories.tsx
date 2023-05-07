@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Box, Text, Checkbox, CheckboxProps } from '@mycelium/react';
+import { Box, Text, Checkbox, CheckboxProps } from '@gridmize/react';
 
 export default {
   title: 'Form/Checkbox',

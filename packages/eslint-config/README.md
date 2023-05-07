@@ -9,7 +9,7 @@ Configuração base do ESLint para ReactJS e NodeJS.
 1. Instalação
 
 ```
-npm i -D eslint @mycelium/eslint-config
+npm i -D eslint @gridmize/eslint-config
 ```
 
 2. Crie um arquivo `.eslintrc.json` ou `.eslintrc.js` na raiz do projeto:
@@ -18,7 +18,7 @@ React:
 
 ```
 {
-  "extends": "@mycelium/eslint-config/react.js"
+  "extends": "@gridmize/eslint-config/react.js"
 }
 ```
 
@@ -26,6 +26,6 @@ Node:
 
 ```
 {
-  "extends": "@mycelium/eslint-config/node.js"
+  "extends": "@gridmize/eslint-config/node.js"
 }
 ```

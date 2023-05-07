@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Avatar, AvatarProps } from '@mycelium/react';
+import { Avatar, AvatarProps } from '@gridmize/react';
 
 export default {
   title: 'Data display/Avatar',

@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Box, Text, TextInput, TextInputProps } from '@mycelium/react';
+import { Box, Text, TextInput, TextInputProps } from '@gridmize/react';
 
 export default {
   title: 'Form/TextInput',

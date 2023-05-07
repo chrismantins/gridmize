@@ -16,7 +16,7 @@ const config = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/mycelium/';
+      config.base = '/gridmize/';
     }
 
     return config;

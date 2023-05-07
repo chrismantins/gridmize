@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Box, BoxProps, Text } from '@mycelium/react';
+import { Box, BoxProps, Text } from '@gridmize/react';
 
 export default {
   title: 'Surfaces/Box',

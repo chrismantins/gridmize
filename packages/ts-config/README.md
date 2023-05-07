@@ -11,13 +11,13 @@ Configuração base do Typescript para ReactJS e NodeJS.
 Se não tiver o Typescript instalado:
 
 ```
-npm i -D typescript @mycelium/config/typescript
+npm i -D typescript @gridmize/config/typescript
 ```
 
 Se já tiver o Typescript instalado:
 
 ```
-npm i -D @mycelium/config/typescript
+npm i -D @gridmize/config/typescript
 ```
 
 2. Crie um arquivo `tsconfig.json` na raiz do projeto:
@@ -26,7 +26,7 @@ React:
 
 ```
 {
-  "extends": "@mycelium/config/typescript/react",
+  "extends": "@gridmize/config/typescript/react",
   "include": ["src"]
 }
 ```
@@ -35,7 +35,7 @@ Node:
 
 ```
 {
-  "extends": "@mycelium/config/typescript/node.json",
+  "extends": "@gridmize/config/typescript/node.json",
   "include": ["src"]
 }
 ```

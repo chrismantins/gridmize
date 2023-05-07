@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Box, Text, TextArea, TextAreaProps } from '@mycelium/react';
+import { Box, Text, TextArea, TextAreaProps } from '@gridmize/react';
 
 export default {
   title: 'Form/TextArea',
