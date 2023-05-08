@@ -106,6 +106,28 @@ $ npm run dev
 # O app vai inicializar em <http://localhost:6006>
 ```
 
+### :checkered_flag: Subindo uma nova versão
+
+Para adicionar uma nova versão das bibliotecas, basta seguir os comandos:
+
+```bash
+# Gerar uma nova versão do changeset
+$ npm run changeset
+# Siga as instruções no terminal
+
+# Atualiza a versão dos pacotes NPM para a nova versão do changeset
+$ npm run version-packages
+
+# Faz o push no gitbuh
+$ git add .
+$ git commit -m "status: message"
+$ git push origin branch
+
+# Caso se ja nescessário, faça o pull request
+```
+
+Depois disso, basta criar uma nova tag de release no Github e já irá acionar a pipeline com o deploy e release no NPM.
+
 ## :memo: Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
