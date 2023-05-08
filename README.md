@@ -63,21 +63,24 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <table>
   <td style="border: none;">
   - <a href="https://reactjs.org/" target="_blank">React</a><br />
-  - <a href="https://nodejs.org/" target="_blank">Node.js</a><br />
   - <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a><br />
+  - <a href="https://nodejs.org/" target="_blank">Node.js</a><br />
   - <a href="https://storybook.js.org/" target="_blank">Storybook</a><br />
   - <a href="https://stitches.dev/" target="_blank">Stitches</a><br />
   - <a href="https://www.radix-ui.com/" target="_blank">Radix</a><br />
-  - <a href="phosphoricons.com/" target="_blank">Phosphor Icons</a><br />
+  - <a href="https://phosphoricons.com/" target="_blank">Phosphor Icons</a><br />
+  - <a href="https://polished.js.org/" target="_blank">Polished</a><br />
+
   </td>
   <td style="border: none;">
   - <a href="https://eslint.org" target="_blank">ESLint</a><br />
   - <a href="https://prettier.io/" target="_blank">Prettier</a><br />
   - <a href="https://vitejs.dev/" target="_blank">Vite</a><br />
   - <a href="https://turbo.build/" target="_blank">Turbo</a><br />
+  - <a href="https://github.com/changesets/changesets" target="_blank">Changeset</a><br />
   - <a href="https://tsup.egoist.dev/" target="_blank">tsup</a><br />
   - <a href="https://github.com/features/actions" target="_blank">Github Actions</a><br />
-  - <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  - <a href="https://pages.github.com/" target="_blank">Github Pages</a><br />
   </td>
 </table>
 
