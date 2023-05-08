@@ -1,6 +1,6 @@
 {
   "name": "@gridmize/eslint-config",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
