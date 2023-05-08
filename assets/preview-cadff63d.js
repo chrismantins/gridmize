@@ -1,0 +1,2 @@
+import{t as e}from"./index-bde2131a.js";import"./index-d475d2ea.js";import"./index-e03f90b5.js";import"./_commonjsHelpers-725317a4.js";const s={parameters:{backgrounds:{default:"dark",values:[{name:"light",value:"#f8f8f8"},{name:"dark",value:"#333333"}]},actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},docs:{theme:e.dark}}};export{s as default};
+//# sourceMappingURL=preview-cadff63d.js.map
