@@ -11,10 +11,11 @@ export default {
     variant: 'primary',
     size: 'md',
     disabled: false,
+    color: 'blue',
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary', 'outline', 'cancel'],
+      options: ['primary', 'outline', 'cancel'],
       control: 'inline-radio',
     },
     size: {
@@ -24,6 +25,22 @@ export default {
     disabled: {
       control: {
         type: 'boolean',
+      },
+    },
+    color: {
+      options: [
+        'blue',
+        'red',
+        'green',
+        'yellow',
+        'orange',
+        'pink',
+        'purple',
+        'turquoise',
+        'sapphire',
+      ],
+      control: {
+        type: 'select',
       },
     },
     onClick: {
@@ -60,18 +77,6 @@ export const WithIcon: StoryObj<ButtonProps> = {
         <Plus weight='bold' />
       </>
     ),
-  },
-};
-
-export const Secondary: StoryObj<ButtonProps> = {
-  args: {
-    variant: 'secondary',
-  },
-};
-
-export const Tertiary: StoryObj<ButtonProps> = {
-  args: {
-    variant: 'tertiary',
   },
 };
 

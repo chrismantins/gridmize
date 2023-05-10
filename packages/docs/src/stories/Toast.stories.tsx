@@ -1,25 +1,17 @@
 import type { StoryObj, Meta } from '@storybook/react';
 import { Toast, ToastProps, Button } from '@gridmize/react';
 import { useState } from 'react';
+import { CentralizedContent } from '../components/CentralizedContent';
 
 const ToastComponent = (props: ToastProps) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        flexDirection: 'column',
-        gap: '8px',
-        justifyContent: 'center',
-        padding: '64px',
-      }}
-    >
+    <CentralizedContent>
       <Button size='sm' onClick={() => setIsOpen(true)}>
         Action to trigger Toast
       </Button>
       <Toast open={isOpen} onOpenChange={setIsOpen} {...props} />
-    </div>
+    </CentralizedContent>
   );
 };
 

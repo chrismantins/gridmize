@@ -1,5 +1,11 @@
 # @gridmize/react
 
+## 1.2.0
+
+### Minor Changes
+
+- Improvements in Button and adding new component Modal
+
 ## 1.1.0
 
 ### Minor Changes

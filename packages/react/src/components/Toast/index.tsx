@@ -22,7 +22,7 @@ export const Toast = ({ title, description, ...props }: ToastProps) => {
         <ToastTitle>{title}</ToastTitle>
         {!!description && <ToastDescription>{description}</ToastDescription>}
         <ToastCloseButton>
-          <X color='#A9A9B2' weight='light' size='20' />
+          <X color="#A9A9B2" weight="light" size="20" />
         </ToastCloseButton>
       </ToastRoot>
 

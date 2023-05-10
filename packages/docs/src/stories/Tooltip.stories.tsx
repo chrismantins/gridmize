@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react';
 import { Tooltip, TooltipProps, Button, Box, Text } from '@gridmize/react';
 
 export default {
-  title: 'Data display/Tooltip',
+  title: 'Overlay/Tooltip',
   component: Tooltip,
   args: {
     children: <Button>Hover Tooltip</Button>,

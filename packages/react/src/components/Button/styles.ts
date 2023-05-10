@@ -1,7 +1,6 @@
-import { ComponentProps, ElementType } from 'react';
-import { styled } from '../styles';
+import { styled } from '../../styles';
 
-export const Button = styled('button', {
+export const ButtonContainer = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
   fontSize: '$sm',
@@ -35,62 +34,55 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        background: '$blue500',
+        background: '$$primaryColor',
         '&:not(:disabled):hover': {
-          background: '$blue700',
+          color: '$white',
+          background: '$$contrastColor',
         },
         '&:focus': {
-          boxShadow: '0 0 0 2px $colors$blue100',
+          boxShadow: '0 0 0 2px $$lightColor',
         },
       },
       outline: {
-        color: '$blue700',
-        border: '2px solid $blue700',
+        color: '$$contrastColor',
+        border: '2px solid $$contrastColor',
+        background: 'transparent',
         '&:not(:disabled):hover': {
           color: '$white',
-          background: '$blue700',
+          background: '$$primaryColor',
+          borderColor: '$$primaryColor',
         },
         '&:focus': {
-          boxShadow: '0 0 0 2px $colors$blue100',
-        },
-      },
-
-      secondary: {
-        color: '$white',
-        background: '$purple500',
-        '&:not(:disabled):hover': {
-          background: '$purple700',
-        },
-        '&:focus': {
-          boxShadow: '0 0 0 2px $colors$purple100',
-        },
-      },
-
-      tertiary: {
-        color: '$white',
-        background: '$orange700',
-        '&:not(:disabled):hover': {
-          background: '$orange900',
-        },
-        '&:focus': {
-          boxShadow: '0 0 0 2px $colors$orange100',
+          boxShadow: '0 0 0 2px $$lightColor',
         },
       },
 
       cancel: {
-        color: '$gray100',
+        color: '$gray600',
+        border: '2px solid $gray500',
+        background: '$gray100',
+        '&:not(:disabled):hover': {
+          background: '$gray400',
+        },
+        '&:focus': {
+          boxShadow: '0 0 0 2px $colors$gray500',
+        },
       },
     },
 
     size: {
       sm: {
         height: 32,
+        fontSize: '$sm',
+        padding: '0 $2',
       },
       md: {
         height: 40,
+        fontSize: '$sm',
       },
       lg: {
         height: 48,
+        fontSize: '$md',
       },
     },
   },
@@ -100,9 +92,3 @@ export const Button = styled('button', {
     size: 'md',
   },
 });
-
-export interface ButtonProps extends ComponentProps<typeof Button> {
-  as?: ElementType;
-}
-
-Button.displayName = 'Button';
